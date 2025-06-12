@@ -1,0 +1,108 @@
+/* Global style */
+
+:root {
+    --main-background: #E8F1EC;
+    --purple: #6A43FE;
+    --app-background: #F4F4F4;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* End global style */
+
+
+
+body {
+    background-color: var(--main-background);
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 600px;
+    text-align: center;
+    margin-top: 50px;
+    border: 5px solid var(--white);
+    border-radius: 20px;
+    margin-bottom: 100px;
+
+}
+
+.section1 {
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+    padding: 30px;
+}
+
+input {
+    height: 70px;
+    width: 100px;
+    margin-bottom: 20px;
+    background-color: var(--purple);
+    border: 1px solid var(--white);
+    border-radius: 3px;
+    text-align: center;
+    color: var(--white);
+    font-size: 55px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button {
+    width: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: var(--purple);
+    border: none;
+    background-color: var(--white);
+    border-radius: 3px;
+}
+
+.section2 {
+    background-color: var(--app-background);
+    padding: 30px 20px;
+    color: var(--purple);
+}
+
+.conversion-bg {
+    background-color: var(--white);
+    margin-bottom: 15px;
+    padding: 25px 50px;
+
+}
+
+.conversion-bg-last {
+    background-color: var(--white);
+    padding: 25px 50px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .conversion-bg-last {
+        padding: 25px 25px;
+    }
+}

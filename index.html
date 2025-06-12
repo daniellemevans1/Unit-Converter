@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Unit Converter</title>
+    <!-- <link rel="icon" type="image/png" href="img/favicon-32x32.png"/> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="index,follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/reset.css" />  -->
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <main>
+        <section class="section1">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <div class="square">
+                <input type="number" id="number">
+            </div>
+            <button id="convert-el">Convert</button>
+        </section>
+        <section class="section2">
+            <div class="conversion-bg">
+                <h2>Length (Meter/Feet)</h2>
+                <div id="meter-feet"></div>
+            </div>
+            <div class="conversion-bg">
+                <h2>Volume (Liters/Gallons)</h2>
+                <div id="liters-gallons"></div>
+            </div>
+            <div class="conversion-bg-last">
+                <h2 class="h2-last">Mass (Kilograms/Pounds)</h2>
+                <div id="kilograms-pounds"></div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
